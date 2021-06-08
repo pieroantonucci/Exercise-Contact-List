@@ -30,8 +30,8 @@ export const Contacts = () => {
 				</p>
 				<div id="contacts" className="panel-collapse collapse show" aria-expanded="true">
 					<ul className="list-group pull-down" id="contact-list">
-						{JSON.stringify(store.delete)}
-						{JSON.stringify(store.update)}
+						{/* {JSON.stringify(store.delete)}
+						{JSON.stringify(store.update)} */}
 						{Object.entries(store.user).map(([key, value]) => {
 							return (
 								<ContactCard
